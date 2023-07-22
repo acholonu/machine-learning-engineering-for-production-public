@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# Large files
+C1_W2.pdf 
+C1_W3.pdf 
