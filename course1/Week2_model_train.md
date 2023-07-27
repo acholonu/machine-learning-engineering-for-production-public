@@ -32,4 +32,13 @@ The advantage of this is you may be able to train your algorithm on one or a sma
 
 ## Error Analysis
 
-So I think of the heart of the machine learning development process as error analysis, which if you do it well, I can tell you what's the most efficient use of your time in terms of what you should do to improve your learning algorithm's performance. 
+So I think of the heart of the machine learning development process as error analysis, which if you do it well, I can tell you what's the most efficient use of your time in terms of what you should do to improve your learning algorithm's performance.
+
+Take mislabeled or incorrect prediction, and explore if there are systematic reasons in the data that may explain why the model is getting things wrong.
+
+![Error Analysis](./images/week2/error_analysis.png)
+
+As you go through these different tags here are some useful numbers to look at. First what fraction of errors have that tag? For example, if you listen to 100 audio clips and find that 12% of them were labeled with the car noise type, then that gives you a sense of how important is it to work on car noise. It tells you also that even if you fix all of the car noise issues, the performance may improve only by 12%, which is actually not bad.
+
+![Useful Metrics](./images/week2/useful_metrics.png)
+
