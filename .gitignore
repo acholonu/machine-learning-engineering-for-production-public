@@ -132,3 +132,6 @@ dmypy.json
 # Large files
 C1_W2.pdf 
 C1_W3.pdf 
+
+# Mac
+.DS_Store
